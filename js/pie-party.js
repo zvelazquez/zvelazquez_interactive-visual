@@ -9,16 +9,16 @@ let progressIcon;
 let gameMusic;
 
 function preload(){
-    pieImage1 = loadImage("6-slice-pie.png");
-    pieImage2 = loadImage("5-slice-pie.png");
-    pieImage3 = loadImage("4-slice-pie.png");
-    pieImage4 = loadImage("3-slice-pie.png");
-    pieImage5 = loadImage("2-slice-pie.png");
-    pieImage6 = loadImage("1-slice-pie.png");
-    pieImage7 = loadImage("0-slice-pie.png");
-    pieSlice = loadImage("pie-slice.png");
-    progressIcon = loadImage("smiley-face-icon.png");
-    gameMusic = loadSound("charlie-brown-fall.mp3");
+    pieImage1 = loadImage("../img/6-slice-pie.png");
+    pieImage2 = loadImage("../img/5-slice-pie.png");
+    pieImage3 = loadImage("../img/4-slice-pie.png");
+    pieImage4 = loadImage("../img/3-slice-pie.png");
+    pieImage5 = loadImage("../img/2-slice-pie.png");
+    pieImage6 = loadImage("../img/1-slice-pie.png");
+    pieImage7 = loadImage("../img/0-slice-pie.png");
+    pieSlice = loadImage("../img/pie-slice.png");
+    progressIcon = loadImage("../img/smiley-face-icon.png");
+    gameMusic = loadSound("../media/charlie-brown-fall.mp3");
 }
 
 let plates = {
